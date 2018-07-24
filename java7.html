@@ -1,0 +1,26 @@
+<html>
+<head>
+<h2><b><center>voting qualification</center></b></h2>
+</head>
+<body>
+<p><b>Enter your age and click the button:</b></p>
+
+<input id="age"  />
+<button onclick="bug()">OK..</button>
+<p id="sara">
+</p>
+<script >
+function bug()
+{
+var age;
+age=document.getElementById("age").value;   
+if( age > 18 )
+{
+Result="Qualified"
+}
+document.getElementById("sara").innerHTML = Result;
+}
+</script>
+</body>
+</html>
+
